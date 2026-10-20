@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Version 2: Automatic Jenkins CI/CD is Working!"
+    return "Version 2: Automatic Jenkins CI/CD is Working Fine!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
